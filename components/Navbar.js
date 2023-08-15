@@ -50,7 +50,7 @@ const Navbar = () => {
       <Link className={pathnames == "/home"? 'btn btn-success':'btn btn-ghost normal-case text-xl'} href={"/home"}>Homepage</Link>
       </div>
       <div className="navbar-center">
-      <Link className={pathnames == "/blog"? 'btn btn-success':'btn btn-ghost normal-case text-xl'} href={{pathname:"/blog", query:{name: "ranjit", id:"45"} }}>Blog</Link>
+      <Link className={pathnames == "/blog"? 'btn btn-success':'btn btn-ghost normal-case text-xl'} href={{pathname:"/blog"}}>Blog</Link>
       </div>
       <div className="navbar-center">
       <Link className={pathnames == "/post"? 'btn btn-success':'btn btn-ghost normal-case text-xl'}  href={"/post"}>Post</Link>
